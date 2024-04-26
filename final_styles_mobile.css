@@ -1,0 +1,219 @@
+header {
+	margin: -8px 0px 0px 0px; 
+	width: 100%;
+	display: grid; 
+	grid-template-areas: 
+		"hamburger title title title"
+		"title title title title"
+		"nav nav nav nav";
+ } 
+ 
+header h1 {
+	display: flex; 
+	grid-area: title; 
+	font-size: 3em;
+	margin:0px 0px 0px 0px; 
+	align-items: center; 
+	width: 100%;
+}
+ 
+.menu-chkbx {
+	display: none; 
+}
+
+.menu-burger {
+	grid-area: hamburger; 
+	padding: 30px 20px 30px 0; 
+	position: relative; 
+	visibility: visible;
+}
+
+.hamburger {
+	display: block; 
+	height: 2px; 
+	width: 20px;
+	position: relative; 
+	background: #03632D;
+}
+
+.hamburger:before { 
+	top: 5px;
+}
+
+.hamburger:after { 
+	top: -5px;
+}
+
+.hamburger:before, .hamburger:after {
+	background: #03632D;
+	display: block;
+	width: 100%; 
+	height: 100%; 
+	content: '';
+	position: absolute; 
+}
+
+.menu-chkbx:checked ~ .menu-burger .hamburger { 
+	background: transparent;
+}
+
+.menu-chkbx:checked ~ .menu-burger .hamburger:before { 
+	transform: rotate(-45deg);
+}
+
+.menu-chkbx:checked ~ .menu-burger .hamburger:after { 
+	transform: rotate(45deg);
+}
+
+.menu-chkbx:checked ~ .menu-burger .hamburger:before, .menu-chkbx:checked ~ .menu-burger .hamburger:after { 
+	top: 0;
+}
+
+nav ul li {
+	margin: 10px 0px 10px 0px; 
+	text-align: center;
+}
+
+.menu {
+	grid-area: nav; 
+	display: flex;
+	flex-direction: column; 
+	max-height: 0; 
+	overflow: hidden; 
+	margin: 0; 
+	padding: 0;
+}
+
+.menu-chkbx:checked ~ .menu { 
+	max-height: 250px; 
+	position: absolute; 
+	margin-top: 62px; 
+	z-index: 1;
+	border-radius: 5px; 
+	background-color: #023951; 
+}
+
+.grid-container {
+  padding-bottom: auto;
+  margin-bottom: auto;
+}
+
+/*Home page picture styles*/
+.BlockText{
+	line-height:1.6em;
+	font-size: 15px;
+}
+
+.top-left{
+	padding-right: 25%;
+	left: 8px;
+}
+
+.homeBigImg{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.HomeImg1{
+	margin-left: auto;
+	width: 75%;
+	padding-left: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	padding-bottom: 2%
+}
+
+.HomeImg2{
+	width: 75%;
+	padding-left: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	padding-bottom: 2%
+}
+
+.HomeImg3{
+	width: 75%;
+	padding-left: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	padding-bottom: 2%
+}
+
+.HomeImg4{
+	width: 75%;
+	padding-left: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40%;
+	padding-bottom: 2%
+}
+
+/*food styles*/
+.food{
+	text-align: center;
+}
+
+.foodImg {
+	width:100%;
+	height:250px;
+	float:left;
+	padding-right:5%;
+	padding-left: 5%;
+}
+
+span {
+	font-size: 110%;
+	color: #015B82;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	margin-left: 0%;
+}
+
+/*Activities styles*/
+
+.actBackground{
+	margin-left:0%;
+	margin-right:0%;
+}
+
+.activitiesh2{
+	color:#820101;
+	font-size: 250%;
+	text-align: center;
+	margin-left: 0%;
+}
+
+h3{
+	margin-left: 0%;
+	text-align: center;
+}
+
+.actImages{
+	width: 95%;
+	padding-left: 5%;
+}
+
+.actText{
+	padding-left: 2.5%;
+	font-size: 1.25em;
+	margin-right: 2.5%;
+	line-height: 200%;
+	text-align: center;
+}
+
+/*Housing styles*/
+.slideshowText {
+	font-size: 11px
+}

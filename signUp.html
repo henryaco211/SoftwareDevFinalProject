@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Dining Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" />
+    </head>
+    <body>
+		<header>
+			<h1>Welcome to Onset!</h1>
+			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+			<label class="menu-burger" for="menu-chkbx"> 
+				<span class="hamburger"></span>
+			</label>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="food.html">Dining</a></li>
+					<li><a href="activities.html">Activites</a></li>
+					<li><a href="housing.html">Housing</a></li>
+					<li><a href="signUp.html">Sign Up</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>SIGN UP</h2>
+			<hr>
+			<div class="signUpBackground">
+				<p class="signUpHeader">Continue the fun!<p><br>
+				<img src="https://visitingnewengland.com/blog-cheap-travel/wp-content/uploads/2013/07/P1170213-1024x768.jpg" 
+						class="signUpImg" alt="Waterfront Cottage">
+				<p class="signUpText">Click on the button below to sign up and receive our newletter.</p>
+				<p class="signUpText">Stay informed on all of the latest news and Events!</p><br>
+				<button class="buttonSignUp" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+				<div id="id01" class="modal">
+				  
+				  <form class="modal-content animate" method="post">
+					<div class="imgcontainer">
+					  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+					  <img src="https://static.vecteezy.com/system/resources/previews/009/107/922/original/sea-shell-logo-free-vector.jpg" alt="logo" class="logo">
+					</div>
+
+					<div class="container">
+					  <label for="uname"><b>Username</b></label>
+					  <input type="email" placeholder="Enter Email" name="uname" required>
+
+					  <label for="psw"><b>Password</b></label>
+					  <input type="password" placeholder="Enter Password" name="psw" required>
+						
+					  <button type="submit">Sign Up</button>
+					</div>
+
+					<div class="container" style="background-color:#f1f1f1">
+					  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+					  <span class="psw">Forgot <a href="#">password?</a></span>
+					</div>
+					<script src="finalJavaScriptSignUp.js"></script>
+				  </form>
+				</div>
+				</div>
+			<footer> 
+			Copyright &copy; 2024
+		</footer> 
+		</main>
+</html>

@@ -1,40 +1,66 @@
 <html>
     <head>
         <title>Home Page</title>
-		<link rel="stylesheet" type="text/css" href="final_styles.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" />
     </head>
     <body>
 		<header>
 			<h1>Welcome to Onset!</h1>
-			<nav>
+			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+			<label class="menu-burger" for="menu-chkbx"> 
+				<span class="hamburger"></span>
+			</label>
+			<nav class="menu">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="food.html">Dining</a></li>
-					<li><a href="food.html">Activites</a></li>
-					<li><a href="food.html">Housing</a></li>
-					<li><a href="food.html">Fun Facts</a></li>
+					<li><a href="activities.html">Activites</a></li>
+					<li><a href="housing.html">Housing</a></li>
+					<li><a href="signUp.html">Sign Up</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
 			<div class="container">
-				<img src="https://mediaim.expedia.com/destination/2/e8c5648412cf01825d791ee952c296f9.jpg" alt="Marc Anthonys" style="width:100%">
+				<img class="homeBigImg" src="https://mediaim.expedia.com/destination/2/e8c5648412cf01825d791ee952c296f9.jpg" alt="Onset">
 				<div class="top-left">
-					<p class="BlockText">Onset, Massachusetts- A Place to go to the Beach, Eat Good Food, and Have Fun!</p>
+					<p class="BlockText">Onset, Massachusetts: A Place to go to the Beach, Eat Good Food, and Have Fun!</p>
 				</div>
 				<div class="bottom-left">
 					<p class="BlockText">Click On a Picture Below to Begin Discovering!</p>
 				</div>
 			</div>
 			</p>
-				<a href="food.html"><img class="HomeImg1" src="https://media.onebite.app/97/88/56/10/97885610-e201-4781-a85f-746c4fe22d6d.jpg"
-					id="food" alt="Food" width="255" height="192"></a>
-				<a href="food.html"><img class="HomeImg2" src="https://www.savebuzzardsbay.org/wp-content/uploads/2017/06/places-to-go_onset-beach-3-800x580.jpg"
-					id="activites" alt="Activites" width="255" height="192"></a>
-				<a href="food.html"><img class="HomeImg3" src="https://images.squarespace-cdn.com/content/v1/63157b6baac828695d381e13/a3d142ee-cef6-4ddb-8ae6-da06297dd1a3/Zandy+Castle+-+Copy.jpg"
-					id="housing" alt="Housing" width="255" height="192"></a>
-				<a href="food.html"><img class="HomeImg4" src="https://www.knowol.com/wp-content/uploads/2017/01/Onset-Bay-Grove-MA-1885-cv-1280x640.jpg"
-					id="funFacts" alt="Fun Facts" width="255" height="192"></a>
+				<div class="navImgContainer">
+					<a href="food.html"><img class="HomeImg1" src="https://media.onebite.app/97/88/56/10/97885610-e201-4781-a85f-746c4fe22d6d.jpg"
+						id="food" alt="Food"></a>
+						<div class="bottomImg1"> 
+							<p>Dining</p> 
+						</div> 
+				</div>
+				<div class="navImgContainer">
+					<a href="activities.html"><img class="HomeImg2" src="https://www.savebuzzardsbay.org/wp-content/uploads/2017/06/places-to-go_onset-beach-3-800x580.jpg"
+						id="activites" alt="Activites"></a>
+						<div class="bottomImg2and3"> 
+							<p>Activities</p> 
+						</div> 
+				</div>
+				<div class="navImgContainer">
+				<a href="housing.html"><img class="HomeImg3" src="https://images.squarespace-cdn.com/content/v1/63157b6baac828695d381e13/a3d142ee-cef6-4ddb-8ae6-da06297dd1a3/Zandy+Castle+-+Copy.jpg"
+					id="housing" alt="Housing"></a>
+						<div class="bottomImg2and3"> 
+							<p>Housing</p> 
+						</div> 
+				</div>
+				<div class="navImgContainer">
+				<a href="signUp.html"><img class="HomeImg4" src="https://www.knowol.com/wp-content/uploads/2017/01/Onset-Bay-Grove-MA-1885-cv-1280x640.jpg"
+					id="funFacts" alt="Fun Facts"></a>
+						<div class="bottomImg4"> 
+							<p>Sign Up</p> 
+						</div> 
+				</div>
 			<p>
 		</main>
 		<footer> 

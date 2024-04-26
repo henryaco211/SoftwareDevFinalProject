@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Activities Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" />
+    </head>
+    <body>
+		<header>
+			<h1>Welcome to Onset!</h1>
+			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+			<label class="menu-burger" for="menu-chkbx"> 
+				<span class="hamburger"></span>
+			</label>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="food.html">Dining</a></li>
+					<li><a href="activities.html">Activites</a></li>
+					<li><a href="housing.html">Housing</a></li>
+					<li><a href="signUp.html">Sign Up</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>HOUSING</h2>
+			<hr>
+			<p class="housingText">Directions: Use the Slideshow below to find a house you like. Then, click its link or scroll further below to learn more!</p>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 5</div>
+				  <img class="housingImg" src="https://www.vacationcapecod.com/unitimages/29850/IMG_0030.JPG" style="width:70%; height:500px;">
+				  <div class="slideshowText"><a href="https://www.vacationcapecod.com/vacation-rentals/rental/MJOHN/">Onset Waterfront</a></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 5</div>
+				  <img class="housingImg" src="https://www.vacationcapecod.com/unitimages/27502/1.jpg" style="width:70%; height:500px;">
+				  <div class="slideshowText"><a href="https://www.vacationcapecod.com/vacation-rentals/rental/MROEH/">Mermaids Cottage</a></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 5</div>
+				  <img class="housingImg" src="https://www.vacationcapecod.com/unitimages/24110/house-water-side-6-sunsetave.jpg" style="width:70%; height:500px;">
+				  <div class="slideshowText"><a href="https://www.vacationcapecod.com/vacation-rentals/rental/SDUNN/">Waterfront Cottage</a></div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">4 / 5</div>
+				  <img class="housingImg" src="https://wnavprd.blob.core.windows.net/cape-cod/38265-20b.jpg?t=20231123-091014" style="width:70%; height:500px;">
+				  <div class="slideshowText"><a href="https://www.weneedavacation.com/Cape-Cod/Onset-Vacation-Rental-38265/">Private Sandy Beach</a></div>
+				</div>
+				
+				<div class="mySlides fade">
+				  <div class="numbertext">5 / 5</div>
+				  <img class="housingImg" src="https://wnavprd.blob.core.windows.net/cape-cod/35403-21b.jpg?t=20220519-082320" style="width:70%; height:500px;">
+				  <div class="slideshowText"><a href="https://www.weneedavacation.com/Cape-Cod/Onset-Vacation-Rental-35403/">Sally's Beachside Cottage</a></div>
+				</div>
+			</div>
+			<br>
+			<div style="text-align:center">
+				 <span class="dot"></span> 
+				 <span class="dot"></span> 
+				 <span class="dot"></span> 
+				 <span class="dot"></span>
+				 <span class="dot"></span>				 
+			</div>
+	
+			<input type ="button" onclick="forwardSlide()" value="Next" class="buttonDone">
+			<hr>
+			<div>
+					<img src="https://www.vacationcapecod.com/unitimages/29850/IMG_0030.JPG" 
+						class="foodImg" alt="Onset Waterfront">
+					<p class="food">
+						<span>Onset Waterfront</span><br>
+						3 bedrooms<br>
+						2 bathrooms<br>
+						<a href="https://www.vacationcapecod.com/vacation-rentals/rental/MJOHN/">Visit the Website</a><br>
+						Features: Gas Grill and Public Beach!<br>
+					</p>
+				</div>
+				<hr>
+				<div>
+					<img src="https://www.vacationcapecod.com/unitimages/27502/1.jpg" 
+						class="foodImg" alt="Mermaids Cottage">
+					<p class="food">
+						<span>Mermaids Cottage</span><br>
+						4 bedrooms<br>
+						2 bathrooms<br>
+						<a href="https://www.vacationcapecod.com/vacation-rentals/rental/MROEH/">Visit the Website</a><br>
+						Features: Public Beach and a Balcony!<br>
+					</p>
+				</div>
+				<hr>
+				<div>
+					<img src="https://www.vacationcapecod.com/unitimages/24110/house-water-side-6-sunsetave.jpg" 
+						class="foodImg" alt="Waterfront Cottage">
+					<p class="food">
+						<span>Waterfront Cottage</span><br>
+						2 bedrooms<br>
+						2 bathrooms<br>
+						<a href="https://www.vacationcapecod.com/vacation-rentals/rental/SDUNN/">Visit the Website</a><br>
+						Features: Private Beach and Jacuzzi Tub!<br>
+					</p>
+				</div>
+				<hr>
+				<div>
+					<img src="https://wnavprd.blob.core.windows.net/cape-cod/38265-20b.jpg?t=20231123-091014" 
+						class="foodImg" alt="Waterfront Cottage">
+					<p class="food">
+						<span>Private Sandy Beach</span><br>
+						3 bedrooms<br>
+						1 bathrooms<br>
+						<a href="https://www.weneedavacation.com/Cape-Cod/Onset-Vacation-Rental-38265/">Visit the Website</a><br>
+						Features: Private Beach and a Fireplace!<br>
+					</p>
+				</div>
+				<hr>
+				<div>
+					<img src="https://wnavprd.blob.core.windows.net/cape-cod/35403-21b.jpg?t=20220519-082320" 
+						class="foodImg" alt="Waterfront Cottage">
+					<p class="food">
+						<span>Sally's Beachside Cottage</span><br>
+						3 bedrooms<br>
+						2 bathrooms<br>
+						<a href="https://www.weneedavacation.com/Cape-Cod/Onset-Vacation-Rental-35403/">Visit the Website</a><br>
+						Features: Public Beach and Balcony!<br>
+					</p>
+				</div>
+			<script src="finalJavaScript.js"></script>
+			<footer> 
+			Copyright &copy; 2024
+		</footer> 
+		</main>
+</html>
