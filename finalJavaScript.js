@@ -1,5 +1,6 @@
 /////////Housing Script//////////
 let slideIndex = 0;
+const slideTimer = setInterval(showSlides, 10000);
 showSlides();
 
 function showSlides() {
@@ -18,7 +19,6 @@ function showSlides() {
 	  }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  const slideTimer = setTimeout(showSlides, 10000);
 }
 
 function forwardSlide() {

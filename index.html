@@ -1,24 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+	<!--Henry Hintermister: name 4/28/2024: datetime -->
     <head>
         <title>Home Page</title>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" />
+		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="final_styles_tablet.css" media="screen and (max-width:768px) and (min-width:481px)" >
+		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" >
+		<link rel="stylesheet" type="text/css" href="final_styles_print.css" media="print" > 
     </head>
     <body>
 		<header>
 			<h1>Welcome to Onset!</h1>
-			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"> 
 			<label class="menu-burger" for="menu-chkbx"> 
 				<span class="hamburger"></span>
 			</label>
 			<nav class="menu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
+					<li class="navLogo"><a href="index.html"><span class="navHome">Home</span><img class="navImg" src="https://static.vecteezy.com/system/resources/previews/009/107/922/original/sea-shell-logo-free-vector.jpg" alt="logo"></a></li>
 					<li><a href="food.html">Dining</a></li>
 					<li><a href="activities.html">Activites</a></li>
 					<li><a href="housing.html">Housing</a></li>
-					<li><a href="signUp.html">Sign Up</a></li>
+					<li><a href="signUp.html">SignUp</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -32,7 +37,6 @@
 					<p class="BlockText">Click On a Picture Below to Begin Discovering!</p>
 				</div>
 			</div>
-			</p>
 				<div class="navImgContainer">
 					<a href="food.html"><img class="HomeImg1" src="https://media.onebite.app/97/88/56/10/97885610-e201-4781-a85f-746c4fe22d6d.jpg"
 						id="food" alt="Food"></a>

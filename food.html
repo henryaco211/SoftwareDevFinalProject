@@ -1,24 +1,29 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+	<!--Henry Hintermister: name 4/28/2024: datetime -->
         <title>Dining Page</title>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" />
+		<link rel="stylesheet" type="text/css" href="final_styles.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="final_styles_tablet.css" media="screen and (max-width:768px) and (min-width:481px)" >
+		<link rel="stylesheet" type="text/css" href="final_styles_mobile.css" media="screen and (max-width:480px)" >
+		<link rel="stylesheet" type="text/css" href="final_styles_print.css" media="print" > 
     </head>
     <body>
 		<header>
 			<h1>Welcome to Onset!</h1>
-			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+			<input class="menu-chkbx" type="checkbox" id="menu-chkbx"> 
 			<label class="menu-burger" for="menu-chkbx"> 
 				<span class="hamburger"></span>
 			</label>
 			<nav class="menu">
 				<ul>
-					<li><a href="index.html">Home</a></li>
+					<li class="navLogo"><a href="index.html"><span class="navHome">Home</span><img class="navImg" src="https://static.vecteezy.com/system/resources/previews/009/107/922/original/sea-shell-logo-free-vector.jpg" alt="logo"></a></li>
 					<li><a href="food.html">Dining</a></li>
 					<li><a href="activities.html">Activites</a></li>
 					<li><a href="housing.html">Housing</a></li>
-					<li><a href="signUp.html">Sign Up</a></li>
+					<li><a href="signUp.html">SignUp</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -30,10 +35,10 @@
 					<img src="https://lh3.googleusercontent.com/p/AF1QipOpEtScBsSXPSCYNIFTMKr398FNzJS2EtVxhp39=s1360-w1360-h1020" 
 						class="foodImg" alt="Marc Anthonys">
 					<p class="food">
-						<span>Marc Anthony's La Pizzeria</span><br>
+						<span class="foodHead">Marc Anthony's La Pizzeria</span><br>
 						190 Onset Ave, Onset, MA 02558<br>
 						+1 508-295-5956<br>
-						<a href="https://marcanthonyspizza.com/">Visit the Website!</a><br>
+						<a href="https://marcanthonyspizza.com/">Visit the Website</a><br>
 						Features: Great Pizza and an Arcade!<br>
 					</p>
 				</div>
@@ -42,7 +47,7 @@
 					<img src="https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/3N3PGUXUVQI6FDP5ZLJAWPP7CQ.jpg" 
 						class="foodImg" alt="Stash's">
 					<p class="food">
-						<span>Stash's Onset Beach</span><br>
+						<span class="foodHead">Stash's Onset Beach</span><br>
 						182 Onset Ave, Wareham, MA 02538<br>
 						+1 508-291-7200<br>
 						Website Unavaliable<br>
@@ -54,10 +59,10 @@
 					<img src="https://wareham.theweektoday.com/sites/beaverdam/files/2022/06/field/image/nana2.jpg" 
 						class="foodImg" alt="Nana's">
 					<p class="food">
-						<span>Nana's Ice Cream and Candy</span><br>
+						<span class="foodHead">Nana's Ice Cream + Candy</span><br>
 						196 Onset Avenue, Onset, MA 02558<br>
 						+1 508-295-5956<br>
-						<a href="https://www.facebook.com/NanasIceCreamOnset">Visit the Website!</a><br>
+						<a href="https://www.facebook.com/NanasIceCreamOnset">Visit the Website</a><br>
 						Features: An Ice Cream Parlor and Candy Store all in One!<br>
 					</p>
 				</div>

@@ -44,6 +44,8 @@ nav ul li {
 	display: inline-block;
 	text-align: center;
 	color: #FFFFFF;
+	width:17%;
+	height:14.75%;
 }
 
 nav ul li:hover{
@@ -56,15 +58,29 @@ nav ul li a {
 	font-size:20px;
 	text-decoration: none;
 	font-family: Georgia;
-	padding-right: 25px;
-	padding-left: 25px;
-	padding-top: 10px;
+}
+
+.navImg{
+	width:40%;
+	border-radius:360px;
+}
+
+.navHome{
+	display: none;
+}
+
+.navLogo{
+	height:13%;
+}
+
+.navLogo:hover{
+	background-color: #05A0E2; 
 }
 
 /*Home page picture styles*/
 .BlockText{
-	line-height:1.6em;
-	font-size: 3em;
+	line-height:160%;
+	font-size: 300%;
 }
 
 .container {
@@ -98,7 +114,7 @@ nav ul li a {
 	margin-right: auto;
 	padding-right: 1%;
 	width: 20%;
-	height: 33.75%;
+	height: 230px;
 }
 
 .HomeImg2{
@@ -107,7 +123,7 @@ nav ul li a {
 	padding-right: 1%;
 	padding-left: 1%;
 	width: 20%;
-	height: 33.75%;
+	height: 230px;
 }
 
 .HomeImg3{
@@ -116,7 +132,7 @@ nav ul li a {
 	padding-right: 1%;
 	padding-left: 1%;
 	width: 20%;
-	height: 33.75%;
+	height: 230px;
 }
 
 .HomeImg4{
@@ -124,25 +140,25 @@ nav ul li a {
 	margin-right: auto;
 	padding-left: 1%;
 	width: 20%;
-	height: 33.75%;
+	height: 230px;
 }
 
 .navImgContainer {
 	position: relative;
 	display: inline;
-	width: 100%
+	width: 100%;
 }
 
 .bottomImg1{
 	position: absolute;
-	top: 280%;
-	right: 18;
+	top: 390%;
+	right: 18px;
 	width: 62.5%;
 	background-color: rgba(0, 0, 0, 0.5); 
-	color: FFFFFF;
+	color: #FFFFFF;
 	text-align: center;
     opacity: 0; 
-    transition: opacity 0.5s ease-in-out; 
+    transition: opacity 0.6s ease-in-out; 
     pointer-events: none; 
 }
 
@@ -153,14 +169,14 @@ nav ul li a {
 
 .bottomImg2and3{
 	position: absolute;
-	top: 275%;
-	right: 18;
+	top: 390%;
+	right: 18px;
 	width: 88%;
 	background-color: rgba(0, 0, 0, 0.5); 
-	color: FFFFFF;
+	color: #FFFFFF;
 	text-align: center;
 	opacity: 0; 
-    transition: opacity 0.5s ease-in-out; 
+    transition: opacity 0.6s ease-in-out; 
     pointer-events: none; 
 }
 
@@ -171,14 +187,14 @@ nav ul li a {
 
 .bottomImg4{
 	position: absolute;
-	top: 275%;
-	right: 0;
+	top: 390%;
+	right: 0px;
 	width: 95%;
 	background-color: rgba(0, 0, 0, 0.5); 
-	color: FFFFFF;
+	color: #FFFFFF;
 	text-align: center;
 	opacity: 0; 
-    transition: opacity 0.5s ease-in-out; 
+    transition: opacity 0.6s ease-in-out; 
     pointer-events: none; 
 }
 
@@ -191,6 +207,7 @@ nav ul li a {
 .food {
 	font-size: 1.6em;
 	line-height: 2em;
+	margin-left: 30%;
 }
 
 .foodImg {
@@ -202,8 +219,8 @@ nav ul li a {
 }
 
 
-span {
-	font-size: 250%;
+.foodHead {
+	font-size: 125%;
 	color: #015B82;
 }
 
@@ -233,13 +250,23 @@ span {
 }
 
 /*Housing page*/
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+	display: none;
+}
+
+img {
+	vertical-align: middle;
+}
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -251,7 +278,7 @@ img {vertical-align: middle;}
 .slideshowText {
   color: #f2f2f2;
   background-color: #2FDEEA;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -265,6 +292,8 @@ img {vertical-align: middle;}
 .housingImg{
 	margin-left: 15%;
 	margin-right: auto;
+	width:70%; 
+	height:500px;
 }
 
 .numbertext {
@@ -333,14 +362,17 @@ img {vertical-align: middle;}
 	padding-top: 1.5%;
 	margin-left:25%;
 	margin-right:25%;
+	border-radius: 50px;
+	border: solid 5px;
+	border-color: #CFE77C;
 }
 
 .signUpImg {
 	width: 90%;
 	margin-left: 5%;
+	border-radius: 45px;
 }
 
-/* Full-width input fields */
 input[type=email], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -350,7 +382,6 @@ input[type=email], input[type=password] {
   box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -373,14 +404,12 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Extra styles for the cancel button */
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
 }
 
-/* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
@@ -401,32 +430,32 @@ span.psw {
   padding-top: 16px;
   font-size: 100%;
   color: #000000;
-  
 }
 
-/* The Modal (background) */
+b{
+	color: #000000;
+}
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
   padding-top: 60px;
 }
 
-/* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  background-color: #84FAFB;
+  margin: 5% auto 15% auto; 
   border: 1px solid #888;
-  width: 50%; /* Could be more or less, depending on screen size */
+  width: 50%;
 }
 
-/* The Close Button (x) */
 .close {
   position: absolute;
   right: 25px;
@@ -442,7 +471,6 @@ span.psw {
   cursor: pointer;
 }
 
-/* Add Zoom Animation */
 .animate {
   -webkit-animation: animatezoom 0.8s;
   animation: animatezoom 0.8s
@@ -457,19 +485,7 @@ span.psw {
   from {transform: scale(0)} 
   to {transform: scale(1)}
 }
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-
-/*Other*/
+/* Other */
 @media screen and (min-width: 480px) { 
 	.menu-burger, .menu-chkbx, .hamburger { 
 	display: none; 

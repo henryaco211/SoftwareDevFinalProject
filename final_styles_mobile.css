@@ -3,18 +3,22 @@ header {
 	width: 100%;
 	display: grid; 
 	grid-template-areas: 
-		"hamburger title title title"
-		"title title title title"
-		"nav nav nav nav";
+		"hamburger"
+		"title"
+		"nav"
  } 
  
 header h1 {
 	display: flex; 
 	grid-area: title; 
-	font-size: 3em;
+	font-size: 320%;
 	margin:0px 0px 0px 0px; 
 	align-items: center; 
 	width: 100%;
+}
+
+h2{
+	font-size: 250%
 }
  
 .menu-chkbx {
@@ -74,6 +78,19 @@ nav ul li {
 	text-align: center;
 }
 
+.navImg{
+	display: none;
+}
+
+.navHome{
+	display: initial;
+	color: #FFFFFF; 
+	font-weight: bold; 
+	font-size:20px;
+	text-decoration: none;
+	font-family: Georgia;
+}
+
 .menu {
 	grid-area: nav; 
 	display: flex;
@@ -87,14 +104,23 @@ nav ul li {
 .menu-chkbx:checked ~ .menu { 
 	max-height: 250px; 
 	position: absolute; 
-	margin-top: 62px; 
+	margin-top: 15%; 
 	z-index: 1;
-	border-radius: 5px; 
-	background-color: #023951; 
+	border-radius: 5px;  
+	background-color: #F4FEAB;
+}
+
+nav ul {
+	line-height: 2em; 
+	background-color: #074B9F;
+}
+
+nav ul li {
+	display: block;
+	margin-left:-25%;
 }
 
 .grid-container {
-  padding-bottom: auto;
   margin-bottom: auto;
 }
 
@@ -110,8 +136,8 @@ nav ul li {
 }
 
 .homeBigImg{
-	width:100%;
-	margin-left: auto;
+	width: 117.25%;
+	margin-left: -10%;
 	margin-right: auto;
 }
 
@@ -122,7 +148,7 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 40%;
+	height: 270px;
 	padding-bottom: 2%
 }
 
@@ -132,7 +158,7 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 40%;
+	height: 270px;
 	padding-bottom: 2%
 }
 
@@ -142,7 +168,7 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 40%;
+	height: 270px;
 	padding-bottom: 2%
 }
 
@@ -152,13 +178,38 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 40%;
+	height: 270px;
 	padding-bottom: 2%
+}
+
+.bottomImg1{
+	opacity: 1; 
+	top: 0;
+	right:0;
+	left:12.5%;
+	width: 74%
+}
+
+.bottomImg2and3{
+	opacity: 1; 
+	top: 0;
+	right:0;
+	left:12.5%;
+	width: 74%
+}
+
+.bottomImg4{
+	opacity: 1; 
+	top: 0;
+	right:0;
+	left:12.5%;
+	width: 75%
 }
 
 /*food styles*/
 .food{
 	text-align: center;
+	margin-left: 0%;
 }
 
 .foodImg {
@@ -214,6 +265,43 @@ h3{
 }
 
 /*Housing styles*/
+.slideshow-container {
+	width: 100%;
+}
+
+.slideshowText {
+  width: 100%;
+  margin-bottom: -5%;
+  margin-left: 0%;
+  margin-right: auto;
+}
+
+.housingImg{
+	margin-left: 0%;
+	margin-right: auto;
+	width:100%;
+	height: 250px;
+}
+
+.numbertext {
+  left: 0%;
+}
+
 .slideshowText {
 	font-size: 11px
+}
+
+.buttonDone{
+	width: 75%;
+	height: 8%;
+}
+
+/* SignUp Styles */
+.signUpBackground {
+	margin-left:0%;
+	margin-right:0%;
+}
+
+.modal-content {
+  width: 80%;
 }

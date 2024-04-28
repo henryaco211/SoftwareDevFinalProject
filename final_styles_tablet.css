@@ -1,0 +1,147 @@
+/* header styles */
+header h1 {
+	padding-bottom: 35%;
+}
+
+nav{
+	margin-left:-10%;
+	width: 118.5%;
+}
+
+.navImg{
+	width:80%;
+}
+
+nav ul li {
+	height:0%;
+}
+
+/* Housing Styles */
+.BlockText{
+	line-height:160%;
+	font-size: 200%;
+}
+
+.top-left {
+  padding-right: 40%;
+}
+
+.homeBigImg{
+	width: 113.5%;
+	margin-left: -10%;
+	margin-right: auto;
+}
+
+.HomeImg1{
+	margin-left: 5%;
+	margin-right: auto;
+	padding-right: 1%;
+	width: 22%;
+	height: 160px;
+}
+
+.HomeImg2{
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+	width: 22%;
+	height: 160px;
+}
+
+.HomeImg3{
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 1%;
+	padding-left: 1%;
+	width: 22%;
+	height: 160px;
+}
+
+.HomeImg4{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1%;
+	width: 22%;
+	height: 160px;
+}
+
+.bottomImg1{
+	opacity: 1; 
+	top: 218%;
+	right:0px;
+	left:18%;
+	width: 75.75%
+}
+
+.bottomImg2and3{
+	opacity: 1; 
+	top: 218%;
+	right:0px;
+	left:4%;
+	width: 88%
+}
+
+.bottomImg4{
+	opacity: 1; 
+	top: 218%;
+	right:0px;
+	left:4%;
+	width: 96%
+}
+
+/* Dining styles */
+
+.foodImg {
+	width:35%;
+}
+
+.food {
+	margin-left: 35%;
+}
+
+/* Activities styles */
+.actImages{
+	width: 70%;
+}
+
+.actText{
+	margin-right: 15%;
+}
+
+/* Housing styles */
+.slideshow-container {
+	width: 100%;
+}
+
+.slideshowText {
+  width: 100%;
+  margin-bottom: -2%;
+  margin-left: 0%;
+  margin-right: auto;
+}
+
+.housingImg{
+	margin-left: 0%;
+	margin-right: auto;
+	width:100%;
+}
+
+.numbertext {
+  left: 0%;
+}
+
+.buttonDone{
+	width: 40%;
+	height: 6%;
+}
+
+/* SignUp styles */
+.signUpBackground {
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.modal-content {
+  width: 80%;
+}
