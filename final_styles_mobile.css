@@ -305,3 +305,11 @@ h3{
 .modal-content {
   width: 80%;
 }
+
+span.psw {
+  display: block;
+  float: none;
+}
+.cancelbtn {
+     width: 100%;
+}
